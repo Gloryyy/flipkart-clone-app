@@ -39,9 +39,7 @@ function OrderPage() {
                 <div className="orderImgContainer">
                   <img
                     className="orderImg"
-                    src={generatePublicUrl(
-                      item.productId.productPictures[0].img
-                    )}
+                    src={item.productId.productPictures[0].img}
                     alt=""
                   />
                 </div>

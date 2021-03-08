@@ -27,10 +27,7 @@ const ClothingAndAccessories = (props) => {
               to={`/${product.slug}/${product._id}/p`}
               className="caImgContainer"
             >
-              <img
-                src={generatePublicUrl(product.productPictures[0].img)}
-                alt=""
-              />
+              <img src={product.productPictures[0].img} alt="" />
             </Link>
             <div>
               <div className="caProductName">{product.name}</div>
